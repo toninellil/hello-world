@@ -12,7 +12,8 @@ jobs:
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - uses: robinraju/release-downloader@v1.5
         with: 
-          repository: "toninellil/hello-world"
+          #repository: "toninellil/hello-world"
+          repository: ${{ github.repository }}
           latest: true
           zipBall: true
           out-file-path: "C:/Temp"
