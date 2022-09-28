@@ -17,7 +17,7 @@ jobs:
           latest: true
           zipBall: true
           out-file-path: "C:/Temp"
-          token: ${{ secrets.REPO_ACCESS_KEY }}
+          token: ${{ secrets.REPO_ACCESS_KEY2 }}
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
