@@ -14,6 +14,7 @@ jobs:
         with: 
           #repository: "toninellil/hello-world"
           repository: ${{ github.repository }}
+          tag: "V1.0.0.0"
           zipBall: true
           out-file-path: "C:/Temp"
           token: ${{ secrets.REPO_ACCESS_KEY }}
